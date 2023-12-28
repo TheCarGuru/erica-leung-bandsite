@@ -1,0 +1,29 @@
+/* Footer styles */
+.footer {
+    background: #323232;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Contact information styles */
+.footer__contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer__contact-info-item {
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.footer__contact-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Copyright styles */
+.footer__copyright {
+    font-size: 14px;
+}
