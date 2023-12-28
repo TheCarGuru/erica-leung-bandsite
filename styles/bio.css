@@ -31,6 +31,8 @@
 /* Contact information styles */
 .footer__contact-info {
     display: flex;
+    background: #323232;
+    color: #FFFFFF;
     justify-content: space-around;
     margin-bottom: 20px;
 }
