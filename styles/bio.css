@@ -14,9 +14,8 @@
     margin-right: 48px; /* Add margin to separate the title from navigation items */
 }
 
-/* Navigation Item */
-.header__nav-item {
-    margin-right: 20px; /* Add margin between navigation items */
+.header__nav, .header__nav-item {
+    margin: 20px; /* Add margin between navigation items */
     cursor: pointer; /* Provide a pointer cursor */
 }
 
