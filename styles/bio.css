@@ -171,6 +171,14 @@
     /* Add styles for paragraphs within columns */
 }
 
+.photo-gallery-section {
+    padding-top: 48px; 
+}
+
+.photo-gallery__subheader {
+    padding-bottom: 36px;
+}
+
 .image-container-2 {
     display: flex;
     flex-wrap: wrap;
