@@ -43,6 +43,44 @@
     max-height: 100%;
 }
 
+/* Hero Image Container */
+.hero-image-container {
+    position: relative;
+    opacity: 50%;
+}
+
+/* Image with Text Overlay */
+.image-with-text {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/* Additional styles for the image with text */
+.hero-bio__image {
+        /* Add styles for the hero bio image */
+        width: 100%; /* Adjust image width as needed */
+        height: auto; /* Maintain aspect ratio */
+}
+
+.overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 60px; 
+}
+
+.image-container-1 {
+    display: flex;
+    align-items: center;    
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .image-container-2 {
     display: flex;
     flex-wrap: wrap;
