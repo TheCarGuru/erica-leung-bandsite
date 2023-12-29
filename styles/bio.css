@@ -21,16 +21,30 @@
     margin-right: 48px; /* Add margin to separate the title from navigation items */
 }
 
-.header__nav, .header__nav-item {
+.header__nav {
     margin: 20px; /* Add margin between navigation items */
     cursor: pointer; /* Provide a pointer cursor */
     display: flex;
 }
 
+.header__nav-item {
+    margin: 20px; /* Add margin between navigation items */
+    cursor: pointer; /* Provide a pointer cursor */
+    display: flex;
+    color: #E5E5E5; /* Mercury color for inactive links */
+}
+
+/* Active Link Styles */
+.header__nav-item.active {
+    color: #FFFFFF; /* White color for active links */
+    font-weight: bold; /* Bold font for active links */
+}
+
 /* Style the anchor within the navigation item */
 .header__nav-item a {
     text-decoration: none;
-    color: #323232; 
+    color: #E5E5E5
+    position: relative;
 }
 
 /* Hover effect for navigation items */
@@ -38,15 +52,34 @@
     text-decoration: underline;
 }
 
-.hero-image-container img, .body-image-1 {
-    max-width: 100%;
-    max-height: 100%;
+/* Underline effect */
+.header__nav-item a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px; /* Height of the underline */
+    width: auto; /* Width adjusts to the content */
+    background-color: #FFFFFF; /* White color for underline */
+    transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+/* Hover Effect for Underline */
+.header__nav-item a:hover::after,
+.header__nav-item.active a::after {
+    width: 100%; /* Maximum width for underline on hover/active */
 }
 
 /* Hero Image Container */
 .hero-image-container {
     position: relative;
     opacity: 50%;
+    background-color: #323232;
+}
+
+.hero-image-container img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Image with Text Overlay */
@@ -73,12 +106,18 @@
         color: #FFFFFF; 
         font-size: 60px; 
 }
-
-.image-container-1 {
+.about-the-musicians-container {
     display: flex;
+    justify-content: center; /* Center horizontally */
     align-items: center;    
+    padding-left: 25%;
     max-width: 50%;
     max-height: 50%;
+}
+
+.body-image-1 {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .image-container-2 {
