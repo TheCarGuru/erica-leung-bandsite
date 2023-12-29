@@ -1,5 +1,22 @@
+/* header container */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    background: #323232;
+    opacity: 50%;
+    color: #FFFFFF;
+}
+
+/* Navigation Title */
+.header__title {
+    text-decoration: none;
+    color: #FFFFFF; 
+    margin-right: 48px; /* Add margin to separate the title from navigation items */
+}
+
 /* Image Container styles */
-.image-container {
+.hero-image-container {
     display: flex;
     flex-wrap: wrap;
 }
