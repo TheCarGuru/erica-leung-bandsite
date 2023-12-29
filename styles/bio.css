@@ -1,3 +1,7 @@
+* {
+    font-family: 'Avenir Next Bold', 'Avenir Next Demi', 'Avenir Next Regular';
+}
+
 /* header container */
 .header-container {
     display: flex;
@@ -71,7 +75,6 @@
     width: 100%; /* Maximum width for underline on hover/active */
 }
 
-
 /* Hero Image Container */
 .hero-image-container {
     position: relative;
@@ -132,6 +135,42 @@
     max-height: 100%;
 }
 
+.bees-knees-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.bees-knees__title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    padding-bottom: 36px;
+}
+
+/* Flex container for columns */
+.bees-knees__content {
+    display: flex;
+    flex-wrap: wrap;
+    /* Add any additional styles for the container */
+}
+
+/* Individual columns */
+.bees-knees__column {
+    flex: 1 1 calc(50% - 20px); /* Adjust width and margins between columns */
+    margin-right: 20px; /* Margin between columns */
+}
+
+/* Ensure last column doesn't have margin */
+.bees-knees__column:last-child {
+    margin-right: 0;
+}
+
+/* Adjust styles for paragraphs within columns */
+.bees-knees__column p {
+    /* Add styles for paragraphs within columns */
+}
+
 .image-container-2 {
     display: flex;
     flex-wrap: wrap;
@@ -184,8 +223,4 @@
 /* Copyright styles */
 .footer__copyright {
     font-size: 14px;
-}
-
-header, body, footer {
-    font-family: 'Avenir Next Bold', 'Avenir Next Demi', 'Avenir Next Regular';
 }
