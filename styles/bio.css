@@ -7,6 +7,13 @@
     color: #FFFFFF;
 }
 
+/* Logo */
+.header__logo img {
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
 /* Navigation Title */
 .header__title {
     text-decoration: none;
@@ -17,12 +24,13 @@
 .header__nav, .header__nav-item {
     margin: 20px; /* Add margin between navigation items */
     cursor: pointer; /* Provide a pointer cursor */
+    display: flex;
 }
 
 /* Style the anchor within the navigation item */
 .header__nav-item a {
     text-decoration: none;
-    color: #333; /* Change the color as needed */
+    color: #323232; 
 }
 
 /* Hover effect for navigation items */
@@ -30,10 +38,9 @@
     text-decoration: underline;
 }
 
-/* Image Container styles */
-.hero-image-container {
-    display: flex;
-    flex-wrap: wrap;
+.hero-image-container img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .image-container-2 {
@@ -87,4 +94,8 @@
 /* Copyright styles */
 .footer__copyright {
     font-size: 14px;
+}
+
+header, body, footer {
+    font-family: 'Avenir Next Bold', 'Avenir Next Demi', 'Avenir Next Regular';
 }
