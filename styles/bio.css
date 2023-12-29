@@ -70,11 +70,11 @@
     width: 100%; /* Maximum width for underline on hover/active */
 }
 
+
 /* Hero Image Container */
 .hero-image-container {
     position: relative;
     opacity: 50%;
-    background-color: #323232;
 }
 
 .hero-image-container img {
@@ -106,6 +106,12 @@
         color: #FFFFFF; 
         font-size: 60px; 
 }
+
+/* Adjust padding for the 'About the Musicians' headline */
+.about-headline {
+    padding-top: 48px; /* Add padding before the headline */
+}
+
 .about-the-musicians-container {
     display: flex;
     justify-content: center; /* Center horizontally */
