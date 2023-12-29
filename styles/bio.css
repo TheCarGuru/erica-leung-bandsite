@@ -12,6 +12,7 @@
     width: 100px; /* Set the width of the logo */
     height: auto; /* Maintain aspect ratio */
     display: block;
+    padding-left: 48px;
 }
 
 /* Navigation Title */
@@ -111,6 +112,10 @@
 .about-headline {
     padding-top: 48px; /* Add padding before the headline */
     padding-bottom: 36px;
+    margin-left: 12%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
 }
 
 .about-the-musicians-container {
