@@ -110,6 +110,7 @@
 /* Adjust padding for the 'About the Musicians' headline */
 .about-headline {
     padding-top: 48px; /* Add padding before the headline */
+    padding-bottom: 36px;
 }
 
 .about-the-musicians-container {
