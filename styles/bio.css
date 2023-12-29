@@ -38,7 +38,7 @@
     text-decoration: underline;
 }
 
-.hero-image-container img {
+.hero-image-container img, .body-image-1 {
     max-width: 100%;
     max-height: 100%;
 }
