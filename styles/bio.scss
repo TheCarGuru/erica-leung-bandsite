@@ -1,0 +1,6 @@
+ /* Media query for mobile screens (320px) and below */
+ @media screen and (max-width: 767px) {
+    /* Reset styles or apply specific mobile styles */
+    flex-direction: column; /* Example: Change flex direction for mobile */
+    padding: 20px; /* Example: Add padding for mobile */
+}
