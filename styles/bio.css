@@ -224,10 +224,11 @@
 
 .footer__social-icons img {
     justify-content: space-evenly;
+    margin-right: 36px;
 }
 
 .footer__subheader {
-    margin-right: 20px; 
+    margin-right: 36px; 
 }
 
 /* Contact information styles */
