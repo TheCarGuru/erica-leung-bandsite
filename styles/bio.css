@@ -27,7 +27,7 @@
 }
 
 .header__nav {
-    margin: 20px; /* Add margin between navigation items */
+    margin: 36px; /* Add margin between navigation items */
     cursor: pointer; /* Provide a pointer cursor */
     display: flex;
 }
