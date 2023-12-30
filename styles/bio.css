@@ -163,16 +163,11 @@
 .bees-knees__column {
     flex: 1 1 calc(50% - 20px); /* Adjust width and margins between columns */
     margin-right: 15px; /* Margin between columns */
-    
 }
 
 /* Ensure last column doesn't have margin */
 .bees-knees__column:last-child {
     margin-right: 0;
-}
-
-/* Adjust styles for paragraphs within columns */
-.bees-knees__column p {
 }
 
 .photo-gallery-section {
