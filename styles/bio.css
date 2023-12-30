@@ -213,7 +213,21 @@
     background: #323232;
     color: #FFFFFF;
     text-align: left;
-    padding: 20px 0;
+    padding: 16px;
+}
+
+.footer__social-icons {
+    display: flex;
+    align-items: center;
+    padding-left: 48px; 
+}
+
+.footer__social-icons img {
+    justify-content: space-evenly;
+}
+
+.footer__subheader {
+    margin-right: 20px; 
 }
 
 /* Contact information styles */
