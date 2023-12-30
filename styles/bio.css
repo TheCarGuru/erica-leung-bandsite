@@ -200,7 +200,6 @@
     flex-basis: calc(33.33% - 16px); /* Adjust the width and padding to create 16px gap */
     box-sizing: border-box;
     padding: 36x; 
-    padding-right: 48px;
 }
 
 .image-container__item img {
