@@ -147,19 +147,22 @@
     line-height: 32px;
     font-weight: 600;
     padding-bottom: 36px;
+    margin-left: 25%;
 }
 
 /* Flex container for columns */
 .bees-knees__content {
     display: flex;
     flex-wrap: wrap;
-    /* Add any additional styles for the container */
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /* Individual columns */
 .bees-knees__column {
     flex: 1 1 calc(50% - 20px); /* Adjust width and margins between columns */
-    margin-right: 20px; /* Margin between columns */
+    margin-right: 15px; /* Margin between columns */
+    
 }
 
 /* Ensure last column doesn't have margin */
@@ -169,7 +172,6 @@
 
 /* Adjust styles for paragraphs within columns */
 .bees-knees__column p {
-    /* Add styles for paragraphs within columns */
 }
 
 .photo-gallery-section {
