@@ -212,8 +212,16 @@
 .footer {
     background: #323232;
     color: #FFFFFF;
-    text-align: left;
-    padding: 16px;
+    position: relative;
+    text-align: start;
+    padding: 48px;
+}
+
+.footer__logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Add additional styles for the logo */
 }
 
 .footer__social-icons {
