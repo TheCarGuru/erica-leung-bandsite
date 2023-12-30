@@ -198,14 +198,14 @@
 /* Image Item styles */
 .image-container__item {
     flex-basis: calc(33.33% - 16px); /* Adjust the width and padding to create 16px gap */
-    box-sizing: border-box;
     padding: 36x; 
 }
 
 .image-container__item img {
-    width: 100%;
+    width: 80%;
     height: auto;
     padding: 16px;
+    margin-left: 20%;
 }
 
 /* Footer styles */
