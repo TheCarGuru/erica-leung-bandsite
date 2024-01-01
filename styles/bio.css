@@ -116,7 +116,7 @@
 
 /* Adjust padding for the 'About the Musicians' headline */
 .about-headline {
-    padding-top: 48px; /* Add padding before the headline */
+    padding-top: 48px; 
     padding-bottom: 36px;
     margin-left: 12%;
     font-size: 36px;
@@ -137,6 +137,12 @@
     max-width: auto;
     max-height: auto;
     padding-bottom: 36px;
+}
+
+.image-with-text-1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
 }
 
 .bees-knees-section {
