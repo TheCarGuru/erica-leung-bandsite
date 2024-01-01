@@ -189,10 +189,10 @@
 
 .photo-gallery__subheader {
     padding-bottom: 36px;
+    line-height: 44px;
+    font-weight: 700;
     margin-left: 12%;
     font-size: 36px;
-    font-weight: 700;
-    line-height: 32px;
 }
 
 .image-container-2 {
