@@ -1,6 +1,19 @@
- /* Media query for mobile screens (320px) and below */
- @media screen and (max-width: 767px) {
-    /* Reset styles or apply specific mobile styles */
-    flex-direction: column; /* Example: Change flex direction for mobile */
-    padding: 20px; /* Example: Add padding for mobile */
+/* Media query for screens with a maximum width of 767px (mobile)*/
+@media only screen and (max-width: 767px) {
+    /* Adjustments for smaller screens */
+    .header-container {
+        /* Your adjustments for header-container */
+    }
+
+    /* Adjustments for other elements as needed */
+}
+
+/* Media query for screens with a width of 320px */
+@media only screen and (max-width: 320px) {
+    /* Adjustments specific to 320px width */
+    .header-container {
+        /* Your adjustments for header-container */
+    }
+
+    /* Adjustments for other elements as needed */
 }

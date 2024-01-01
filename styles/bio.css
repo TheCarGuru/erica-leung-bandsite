@@ -13,8 +13,8 @@
 
 /* Logo */
 .header__logo img {
-    max-width: 120px; 
-    max-height: 20px; 
+    width: 120px; 
+    height: 20px; 
     display: block;
     padding-left: 48px;
 }
