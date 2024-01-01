@@ -110,6 +110,8 @@
         transform: translate(-50%, -50%);
         color: #FFFFFF; 
         font-size: 60px; 
+        line-height: 68px;
+        font-weight: 700;
 }
 
 /* Adjust padding for the 'About the Musicians' headline */
