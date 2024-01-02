@@ -2,7 +2,6 @@
     font-family: 'Avenir Next Bold', 'Avenir Next Demi', 'Avenir Next Regular';
 }
 
-/* header container */
 .header-container {
     display: flex;
     align-items: center;
@@ -11,7 +10,6 @@
     color: #FFFFFF;
 }
 
-/* Logo */
 .header__logo img {
     width: 120px; 
     height: 20px; 
@@ -19,7 +17,6 @@
     padding-left: 48px;
 }
 
-/* Navigation Title */
 .header__title {
     text-decoration: none;
     color: #FFFFFF; 
@@ -30,7 +27,6 @@
     margin: 36px;
     cursor: pointer; 
     display: flex;
-
 }
 
 .header__nav-item {
@@ -41,7 +37,7 @@
     text-decoration: none;
 }
 
-/* Active Link Styles */
+
 .header__nav-item.active {
     color: #FFFFFF; 
     font-weight: bold; 
@@ -49,20 +45,17 @@
     text-underline-offset:0.3rem;
 }
 
-/* Style the anchor within the navigation item */
 .header__nav-item a {
     text-decoration: none;
     color: #E5E5E5
     position: relative;
 }
 
-/* Hover effect for navigation items */
 .header__nav-item:hover {
     text-decoration: 0.1rem underline #FFFFFF;
     text-underline-offset: 3.5rem;
 }
 
-/* Hero Image Container */
 .hero-image-container {
     position: relative;
     background-color: rgba(50, 50, 50, 0.5); 
@@ -73,7 +66,6 @@
     max-height: 100%;
 }
 
-/* Image with Text Overlay */
 .image-with-text {
     position: relative;
     display: flex;
@@ -82,7 +74,6 @@
     text-align: center;
 }
 
-/* Additional styles for the image with text */
 .hero-bio__image {
         width: 100%; 
         height: auto; 
@@ -99,7 +90,6 @@
         font-weight: 700;
 }
 
-/* Adjust padding for the 'About the Musicians' headline */
 .about-headline {
     padding-top: 48px; 
     padding-bottom: 36px;
@@ -122,7 +112,7 @@
     width: 100%;
     height: auto;
     display: block;
-    margin-right: auto; /* Center the image horizontally */
+    margin-right: auto; 
     padding-bottom: 36px;
 }
 
@@ -144,10 +134,8 @@
     line-height: 32px;
     font-weight: 600;
     margin-left: 17%;
- 
 }
 
-/* Flex container for columns */
 .bees-knees__content {
     display: flex;
     flex-wrap: wrap;
@@ -158,13 +146,11 @@
     font-weight: 400;
 }
 
-/* Individual columns */
 .bees-knees__column {
     flex: 1 1 calc(50% - 36px); 
     margin-right: 36px; 
 }
 
-/* Ensure last column doesn't have margin */
 .bees-knees__column:last-child {
     margin-right: 0;
 }
@@ -177,7 +163,6 @@
     position: absolute;
     padding-top: 48px; 
     margin-bottom: 20px;
-    
     margin-left: 12%;
     background-color: #E1E1E1
     color: #FFFFFF;
@@ -193,7 +178,6 @@
     background-color: #E1E1E1;
 }
 
-/* Image Item styles */
 .image-container__item {
     flex-basis: calc(33.33% - 16px); 
 }
@@ -205,7 +189,6 @@
     margin-left: 12%;
 }
 
-/* Footer styles */
 .footer {
     background: #323232;
     color: #FFFFFF;
@@ -246,7 +229,6 @@
     padding-left: 48px; 
 }
 
-/* Contact information styles */
 .footer__contact-containers {
     display: flex;
     flex-wrap: wrap;
@@ -301,7 +283,6 @@
     margin-bottom: 20px;
 }
 
-/* Copyright styles */
 .footer__copyright {
     flex-basis: 40%;
     text-align: left;
