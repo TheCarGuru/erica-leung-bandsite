@@ -37,12 +37,16 @@
     cursor: pointer; /* Provide a pointer cursor */
     display: flex;
     color: #E5E5E5; /* Mercury color for inactive links */
+    text-decoration: none;
+   
 }
 
 /* Active Link Styles */
 .header__nav-item.active {
     color: #FFFFFF; /* White color for active links */
     font-weight: bold; /* Bold font for active links */
+    text-decoration: 0.1rem underline, #FFFFFF;
+    text-underline-offset:0.3rem;
 }
 
 /* Style the anchor within the navigation item */
@@ -54,7 +58,8 @@
 
 /* Hover effect for navigation items */
 .header__nav-item:hover {
-    text-decoration: underline;
+    text-decoration: 0.1rem underline #FFFFFF;
+    text-underline-offset: 3.5rem;
 }
 
 /* Underline effect */
