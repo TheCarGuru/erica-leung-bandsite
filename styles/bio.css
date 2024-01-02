@@ -155,7 +155,6 @@
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
-   
     margin-left: 17%;
 }
 
@@ -192,12 +191,12 @@
 .photo-gallery__subheader {
     position: absolute;
     top: 20px; /* Adjust the positioning as needed */
-    left: 36px; /* Adjust the positioning as needed */
+    margin-left: 12%;
     background-color: #E1E1E1
     color: #FFFFFF;
-    padding: 10px 20px;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 36px;
+    line-weight: 44px;
+    font-weight: 700;
 }
 
 .image-container-2 {
