@@ -78,8 +78,7 @@
 /* Hero Image Container */
 .hero-image-container {
     position: relative;
-    background-color: #323232;
-    opacity: 50%;
+    background-color: rgba(50, 50, 50, 0.5); 
 }
 
 .hero-image-container img {
@@ -313,4 +312,6 @@
     text-align: left;
     padding-left: 36px;
     font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
 }
