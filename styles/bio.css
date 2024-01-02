@@ -257,26 +257,53 @@
 
 .footer__subheader {
     margin-right: 36px; 
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600px;
 }
 
 /* Contact information styles */
-.footer__contact-info {
+.footer__contact-containers {
     display: flex;
+    flex-wrap: wrap;
     background: #323232;
     color: #FFFFFF;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 20px;
     padding-bottom: 36px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
 }
 
-.footer__contact-info-item {
-    flex-basis: 30%;
+.footer__contact-info {
+    flex-basis: calc(33.33% - 20px); /* Set width for each container */
+    text-align: left;
+    padding: 0 10px; /* Adjust padding between contact info sets */
+    margin-bottom: 20px; /* Provide some space between the containers */
+    /* Additional styles as needed */
+}
+
+.footer__contact-info-item-1 {
+    flex: 1;
     text-align: left;
     padding-left: 36px;
 }
 
+.footer__contact-info-item-2 {
+    flex: 1;
+    text-align: left;
+    margin-left: -36%; 
+}
+
+.footer__contact-info-item-3 {
+    flex: 1;
+    text-align: left;
+    margin-left: -80%; 
+}
+
 .footer__contact-name {
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
