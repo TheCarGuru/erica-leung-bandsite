@@ -181,16 +181,17 @@
 }
 
 .photo-gallery-section {
-    padding-top: 36px; 
+    
 }
 
 .photo-gallery__container {
     position: relative;
+    padding-top: px;
 }
 
 .photo-gallery__subheader {
     position: absolute;
-    top: 48px; 
+    padding-top: 48px; 
     margin-left: 12%;
     background-color: #E1E1E1
     color: #FFFFFF;
@@ -202,8 +203,8 @@
 .image-container-2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 48px;
+    padding: 20px; /* Adjust padding as needed */
+    margin-top: 20px; /* Add margin to separate images from the subheader */
     background-color: #E1E1E1;
 }
 
@@ -214,10 +215,10 @@
 }
 
 .image-container__item img {
-    width: 80%;
+    width:70%;
     height: auto;
     padding: 16px;
-    margin-left: 20%;
+    margin-left: 12%;
 }
 
 /* Footer styles */
