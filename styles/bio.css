@@ -155,7 +155,7 @@
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
-    padding-bottom: 36px;
+   
     margin-left: 17%;
 }
 
@@ -163,8 +163,8 @@
 .bees-knees__content {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 16%;
-    margin-right: 25%;
+    margin-left: 17%;
+    margin-right: 40%;
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
@@ -172,8 +172,8 @@
 
 /* Individual columns */
 .bees-knees__column {
-    flex: 1 1 calc(50% - 20px); /* Adjust width and margins between columns */
-    margin-right: 15px; /* Margin between columns */
+    flex: 1 1 calc(50% - 36px); /* Adjust width and margins between columns */
+    margin-right: 36px; /* Margin between columns */
 }
 
 /* Ensure last column doesn't have margin */
@@ -186,16 +186,18 @@
 }
 
 .photo-gallery__container {
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .photo-gallery__subheader {
-    padding-bottom: 36px;
-    line-height: 44px;
-    font-weight: 700;
-    margin-left: 12%;
-    font-size: 36px;
+    position: absolute;
+    top: 20px; /* Adjust the positioning as needed */
+    left: 36px; /* Adjust the positioning as needed */
+    background-color: #E1E1E1
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .image-container-2 {
