@@ -225,6 +225,13 @@
     flex: 1; 
 }
 
+.footer__subheader {
+    margin-right: 48px; 
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600px;
+}
+
 .footer__social-icons {
     display: flex;
     align-items: center;
@@ -233,14 +240,7 @@
 
 .footer__social-icons img {
     justify-content: space-evenly;
-    margin-right: 36px;
-}
-
-.footer__subheader {
-    margin-right: 36px; 
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600px;
+    padding-left: 48px; 
 }
 
 /* Contact information styles */
@@ -276,14 +276,14 @@
 .footer__contact-info-item-2 {
     flex: 1;
     text-align: left;
-    margin-left: -36%; 
+    margin-left: -48%; 
     padding-top: 36px;
 }
 
 .footer__contact-info-item-3 {
     flex: 1;
     text-align: left;
-    margin-left: -80%; 
+    margin-left: -100%;
     padding-top: 36px;
 }
 
