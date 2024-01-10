@@ -8,31 +8,31 @@
   padding: 0;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-left: 48px;
-  background-color: $black;
-  color: #ffffff;
-}
-.header__logo {
-  img {
-    width: 120px;
-    height: 20px;
-    display: block;
-    padding-left: 48px;
-  }
-}
-.header__title {
-  text-decoration: none;
-  color: $black;
-  margin-right: 48px;
-}
-.header__nav {
-  margin: 36px;
-  cursor: pointer;
-  display: flex;
-}
+// .header-container {
+//   display: flex;
+//   align-items: center;
+//   padding-left: 48px;
+//   background-color: $black;
+//   color: #ffffff;
+// }
+// .header__logo {
+//   img {
+//     width: 120px;
+//     height: 20px;
+//     display: block;
+//     padding-left: 48px;
+//   }
+
+// .header__title {
+//   text-decoration: none;
+//   color: $black;
+//   margin-right: 48px;
+// }
+// .header__nav {
+//   margin: 36px;
+//   cursor: pointer;
+//   display: flex;
+// }
 .header__nav-item {
   margin: 20px;
   cursor: pointer;

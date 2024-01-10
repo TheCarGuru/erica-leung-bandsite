@@ -1,1 +1,51 @@
 @use "./partials/index" as *;
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-left: $padding__bh-m;
+  background-color: $black;
+}
+
+.header__logo img {
+  max-width: 7.5rem;
+  max-height: 1.25rem;
+  display: block;
+  padding-left: $padding__bh-m;
+}
+
+.header__title {
+  text-decoration: none;
+  color: $black;
+  margin-right: $padding__bh-m;
+}
+
+.header__nav {
+  padding: $padding__bc-m;
+  display: flex;
+}
+
+.header__navitem {
+  cursor: pointer;
+  display: flex;
+  color: $white;
+  text-decoration: none;
+  & a {
+    text-decoration: none;
+    position: relative;
+  }
+  &--active {
+    font-weight: 700;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: 0.1rem underline, #ffffff;
+    text-underline-offset: 0.3rem;
+  }
+  &:hover {
+    text-decoration: 0.1rem underline #ffffff;
+    text-underline-offset: 3.5rem;
+  }
+  &--inactive {
+    font-weight: 400;
+  }
+}

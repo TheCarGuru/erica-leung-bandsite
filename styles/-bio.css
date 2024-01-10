@@ -1,36 +1,6 @@
-@font-face {
-  font-family: "Avenir Regular";
-  src: url(/assets/Font/AvenirNextLTPro-Regular.otf);
-}
 * {
   margin: 0;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-left: 48px;
-  background-color: #323232;
-  color: #ffffff;
-}
-
-.header__logo img {
-  width: 120px;
-  height: 20px;
-  display: block;
-  padding-left: 48px;
-}
-
-.header__title {
-  text-decoration: none;
-  color: #323232;
-  margin-right: 48px;
-}
-
-.header__nav {
-  margin: 36px;
-  cursor: pointer;
-  display: flex;
+  padding: 0;
 }
 
 .header__nav-item {
