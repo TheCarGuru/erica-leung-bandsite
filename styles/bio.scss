@@ -49,3 +49,21 @@
     font-weight: 400;
   }
 }
+
+.hero-image-container {
+  position: relative;
+  background-color: $black;
+  opacity: 0.5;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.image-with-text {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
