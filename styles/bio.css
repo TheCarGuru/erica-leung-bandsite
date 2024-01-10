@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "Avenir Regular";
+  src: url(/assets/Font/AvenirNextLTPro-Regular.otf);
+}
 * {
-  font-family: 'Avenir Next Bold', 'Avenir Next Demi', 'Avenir Next Regular';
+  margin: 0;
 }
 
 .header-container {
@@ -11,55 +15,54 @@
 }
 
 .header__logo img {
-  width: 120px; 
-  height: 20px; 
+  width: 120px;
+  height: 20px;
   display: block;
   padding-left: 48px;
 }
 
 .header__title {
   text-decoration: none;
-  color: #FFFFFF; 
-  margin-right: 48px; 
+  color: #FFFFFF;
+  margin-right: 48px;
 }
 
 .header__nav {
   margin: 36px;
-  cursor: pointer; 
+  cursor: pointer;
   display: flex;
 }
 
 .header__nav-item {
-  margin: 20px; 
-  cursor: pointer; 
+  margin: 20px;
+  cursor: pointer;
   display: flex;
-  color: #E5E5E5; 
+  color: #E5E5E5;
   text-decoration: none;
+}
+.header__nav-item a {
+  text-decoration: none;
+  color: #E5E5E5;
+  position: relative;
+}
+.header__nav-item:hover {
+  -webkit-text-decoration: 0.1rem underline #FFFFFF;
+          text-decoration: 0.1rem underline #FFFFFF;
+  text-underline-offset: 3.5rem;
 }
 
 .header__nav-item.active {
-  color: #FFFFFF; 
-  font-weight: bold; 
-  text-decoration: 0.1rem underline, #FFFFFF;
-  text-underline-offset:0.3rem;
-}
-
-.header__nav-item a {
-  text-decoration: none;
-  color: #E5E5E5
-  position: relative;
-}
-
-.header__nav-item:hover {
-  text-decoration: 0.1rem underline #FFFFFF;
-  text-underline-offset: 3.5rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  -webkit-text-decoration: 0.1rem underline, #FFFFFF;
+          text-decoration: 0.1rem underline, #FFFFFF;
+  text-underline-offset: 0.3rem;
 }
 
 .hero-image-container {
   position: relative;
-  background-color: rgba(50, 50, 50, 0.5); 
+  background-color: rgba(50, 50, 50, 0.5);
 }
-
 .hero-image-container img {
   max-width: 100%;
   max-height: 100%;
@@ -74,23 +77,23 @@
 }
 
 .hero-bio__image {
-      width: 100%; 
-      height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .overlay-text {
-      position: absolute;
-      top: 50%;
-      left: 25%;
-      transform: translate(-50%, -50%);
-      color: #FFFFFF; 
-      font-size: 60px; 
-      line-height: 68px;
-      font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 700;
 }
 
 .about-headline {
-  padding-top: 48px; 
+  padding-top: 48px;
   padding-bottom: 36px;
   margin-left: 12%;
   font-size: 36px;
@@ -101,7 +104,7 @@
 .about-the-musicians-container {
   display: flex;
   justify-content: center;
-  align-items: center;    
+  align-items: center;
   padding-left: 17%;
   width: 50%;
   height: 50%;
@@ -111,7 +114,7 @@
   width: 100%;
   height: auto;
   display: block;
-  margin-right: auto; 
+  margin-right: auto;
   padding-bottom: 36px;
 }
 
@@ -146,10 +149,9 @@
 }
 
 .bees-knees__column {
-  flex: 1 1 calc(50% - 36px); 
-  margin-right: 36px; 
+  flex: 1 1 calc(50% - 36px);
+  margin-right: 36px;
 }
-
 .bees-knees__column:last-child {
   margin-right: 0;
 }
@@ -160,29 +162,28 @@
 
 .photo-gallery__subheader {
   position: absolute;
-  padding-top: 48px; 
+  padding-top: 48px;
   margin-bottom: 20px;
   margin-left: 12%;
-  background-color: #E1E1E1
+  background-color: #E1E1E1;
   color: #FFFFFF;
   font-size: 36px;
-  line-weight: 44px;
+  font-weight: 44px;
   font-weight: 700;
 }
 
 .image-container-2 {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px; 
+  padding: 20px;
   background-color: #E1E1E1;
 }
 
 .image-container__item {
-  flex-basis: calc(33.33% - 16px); 
+  flex-basis: calc(33.33% - 16px);
 }
-
 .image-container__item img {
-  width:70%;
+  width: 70%;
   height: auto;
   padding: 16px;
   margin-left: 12%;
@@ -201,17 +202,17 @@
   top: 15%;
   right: 0;
   margin-right: 48px;
-  width: 120px; 
-  height: 20px; 
+  width: 120px;
+  height: 20px;
   padding-right: 48px;
 }
 
 .footer__content {
-  flex: 1; 
+  flex: 1;
 }
 
 .footer__subheader {
-  margin-right: 48px; 
+  margin-right: 48px;
   font-size: 24px;
   line-height: 32px;
   font-weight: 600px;
@@ -220,12 +221,11 @@
 .footer__social-icons {
   display: flex;
   align-items: center;
-  padding-left: 48px; 
+  padding-left: 48px;
 }
-
 .footer__social-icons img {
   justify-content: space-evenly;
-  padding-left: 48px; 
+  padding-left: 48px;
 }
 
 .footer__contact-containers {
@@ -240,10 +240,10 @@
 }
 
 .footer__contact-info {
-  flex-basis: calc(33.33% - 20px); 
+  flex-basis: calc(33.33% - 20px);
   text-align: left;
-  padding: 0 10px; 
-  margin-bottom: 20px; 
+  padding: 0 10px;
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -259,7 +259,7 @@
 .footer__contact-info-item-2 {
   flex: 1;
   text-align: left;
-  margin-left: -48%; 
+  margin-left: -48%;
   padding-top: 36px;
 }
 
@@ -276,12 +276,14 @@
   font-weight: 700;
 }
 
-.contact-address,
+.contact-address {
+  margin-bottom: 20px;
+}
+
 .contact-email {
   margin-bottom: 20px;
 }
 
-/* Copyright styles */
 .footer__copyright {
   flex-basis: 40%;
   text-align: left;
@@ -290,3 +292,71 @@
   line-height: 20px;
   font-weight: 400;
 }
+
+/* tablet  view */
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+}
+/* desktop view */
+@media screen and (min-width: 1280px) {
+  .nav {
+    background: #323232;
+  }
+}
+.header {
+  background-color: #323232;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+}
+
+/* @media screen and (min-width: 768px) {
+  .nav__list {
+    gap: 2rem;
+  }
+} */
+.logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: #FFFFFF;
+  padding: 2rem 0;
+  /*   @include tablet {
+      margin: 0;
+    padding-left: 2rem;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin: 0;
+    padding-left: 2rem;
+  }
+}
+.nav__item {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__item {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__link {
+    padding-right: 2rem;
+  }
+}/*# sourceMappingURL=bio.css.map */

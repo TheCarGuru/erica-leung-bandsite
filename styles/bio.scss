@@ -40,7 +40,8 @@
 	text-decoration: none;
 	a {
 		text-decoration: none;
-		color: #E5E5E5 position: relative;
+		color: #E5E5E5;
+		position: relative;
 	}
 	&:hover {
 		text-decoration: 0.1rem underline #FFFFFF;
@@ -146,9 +147,10 @@
 	padding-top: 48px;
 	margin-bottom: 20px;
 	margin-left: 12%;
-	background-color: #E1E1E1 color: #FFFFFF;
+	background-color: #E1E1E1;
+	color: #FFFFFF;
 	font-size: 36px;
-	line-weight: 44px;
+	font-weight: 44px;
 	font-weight: 700;
 }
 .image-container-2 {
