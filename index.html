@@ -13,25 +13,31 @@
       <!-- navigation logo -->
       <a href="/index.html" class="header__logo">
         <img src="/assets/Logo/Logo-bandsite.svg" alt="Bandsite logo" />
-      </a>
+        <a href=""></a
+      ></a>
       <nav class="header__nav">
-        <span class="header__navitem header__navitem--active">Biography</span>
-        <span class="header__navitem header__navitem--inactive">Shows</span>
+        <ul>
+          <li class="header__navitem header__navitem--active">
+            <a class="navitem--active">Biography</a>
+          </li>
+          <li class="header__navitem header__navitem--inactive">
+            <a class="navitem--inactive">Shows</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
     <!--The Bees Knees image container-->
-    <section>
-      <div class="body-container">
-        <div class="hero-image-container">
-          <div class="image-with-text">
-            <img
-              src="/assets/Images/hero-bio.jpg"
-              alt="hero-bio"
-              class="hero-bio__image"
-            />
-            <div class="overlay-text">The Bees Knees</div>
-          </div>
+    <section class="section__hero">
+      <div class="hero-image-container">
+        <div class="image-with-text">
+          <img
+            src="/assets/Images/hero-bio.jpg"
+            alt="hero-bio"
+            class="hero-bio__image"
+          />
+          <div class="hero__overlay"></div>
+          <h1 class="overlay-text">The Bees Knees</h1>
         </div>
       </div>
     </section>

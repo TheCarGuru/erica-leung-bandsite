@@ -2,16 +2,18 @@
 
 .header-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-left: $padding__bh-m;
   background-color: $black;
 }
 
 .header__logo img {
   max-width: 7.5rem;
   max-height: 1.25rem;
-  display: block;
-  padding-left: $padding__bh-m;
+  display: flex;
+  align-items: center;
+  padding-top: $padding__bh-m;
+  padding-bottom: $padding__ah-m;
 }
 
 .header__title {
@@ -22,48 +24,81 @@
 
 .header__nav {
   padding: $padding__bc-m;
-  display: flex;
 }
 
 .header__navitem {
   cursor: pointer;
   display: flex;
+  justify-content: space-evenly;
   color: $white;
   text-decoration: none;
+  width: 50%;
   & a {
     text-decoration: none;
     position: relative;
+    // color: $white;
   }
   &--active {
     font-weight: 700;
     color: #ffffff;
     font-weight: bold;
-    text-decoration: 0.1rem underline, #ffffff;
-    text-underline-offset: 0.3rem;
+    border-bottom: 0.25rem solid $white;
   }
   &:hover {
-    text-decoration: 0.1rem underline #ffffff;
-    text-underline-offset: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 0.25rem solid $white;
   }
   &--inactive {
     font-weight: 400;
+  }
+  &.navitem--inactive {
+    color: $silver;
+  }
+  &.navitem--active {
+    color: $white;
   }
 }
 
 .hero-image-container {
   position: relative;
-  background-color: $black;
-  opacity: 0.5;
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  // img {
+  //   max-width: 100%;
+  //   max-height: 100%;
+  // }
 }
-
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .image-with-text {
-  position: relative;
+  // position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+}
+
+.hero-bio__image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  padding-left: 3rem;
+  color: $white;
+  font-size: $font-size__seh;
+  line-height: $line-height__seh;
+  font-weight: $font-bold;
 }
