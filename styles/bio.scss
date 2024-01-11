@@ -80,7 +80,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .image-with-text {
-  // position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -101,4 +100,20 @@
   font-size: $font-size__seh;
   line-height: $line-height__seh;
   font-weight: $font-bold;
+}
+
+.about-headline {
+  padding-top: $padding__bh-m;
+  padding-bottom: $padding__ah-m;
+  padding-left: 1.5rem;
+  font-size: $font-size__seh-m;
+  line-height: $line-height__seh-m;
+  font-weight: $font-bold;
+}
+.about-the-musicians-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 0.5rem;
+  max-height: 25%;
 }
