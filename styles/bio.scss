@@ -114,6 +114,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 0.5rem;
-  max-height: 25%;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.body-image-1 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding-bottom: $padding__ah-m;
+  padding-left: 1.5rem;
+
+  .image-with-text-1 {
+    font-size: $font-size__body-m;
+    line-height: $line-height__body-m;
+    padding-left: 1.5rem;
+    padding-bottom: $padding__ah-m;
+    font-weight: $font-regular;
+  }
+
+  .bees-knees-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: $padding__bh-m;
+  }
+  .bees-knees__title {
+    font-size: $font-size__seh-m;
+    line-height: $line-height__seh-m;
+    font-weight: $font-bold;
+    padding-top: $padding__bc-m;
+  }
 }
