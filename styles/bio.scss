@@ -143,5 +143,37 @@
     line-height: $line-height__seh-m;
     font-weight: $font-bold;
     padding-top: $padding__bc-m;
+    padding-left: $padding__bc-m;
   }
+}
+.bees-knees__content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: $padding__ah-m;
+  font-size: $font-size__body-m;
+  line-height: $line-height__body-m;
+  font-weight: $font-regular;
+}
+.bees-knees__column {
+  padding-top: $padding__ah-m;
+  // flex: 1 1 calc(50% - 36px);
+  // margin-right: 36px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.photo-gallery__subheader {
+  padding-top: $padding__bh-m;
+  padding-bottom: $padding__ah-m;
+  color: $black;
+  font-size: 36px;
+  font-weight: 44px;
+  font-weight: 700;
+}
+.image-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: $silver;
 }

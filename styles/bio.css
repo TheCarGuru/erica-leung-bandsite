@@ -139,4 +139,37 @@
   line-height: 2rem;
   font-weight: 700;
   padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.bees-knees__content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  font-size: 0.813rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+}
+
+.bees-knees__column {
+  padding-top: 1rem;
+}
+.bees-knees__column:last-child {
+  margin-right: 0;
+}
+
+.photo-gallery__subheader {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  color: #323232;
+  font-size: 36px;
+  font-weight: 44px;
+  font-weight: 700;
+}
+
+.image-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #afafaf;
 }/*# sourceMappingURL=bio.css.map */
